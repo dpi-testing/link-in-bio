@@ -1,5 +1,3 @@
-# static-html-template
+# Getting started with github codespaces
 
-This template is used for static web page projects.
-
-*Remember to update this README with a new title and description relevant to your project.*
+Run the server by entering `bin/server` in the terminal.
