@@ -1,40 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Chandhu Portfolio</title>
+    <style>
+      * {
+        border: 1px solid red;
+      }
+      /* base layout */
+      body {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 640px;
+        background-color: rgb(239, 197, 234);
+        font-family: "Times New Roman", Times, serif;
+      }
+      /* avatar */
+      #avatar {
+        max-width: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      /* headings */
+      .headline {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      .tagline {
+        font-size: 1rem;
+        font-weight: lighter;
+        color: rgb(32, 31, 31);
+      }
+      /* bio */
+      #bio {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: blueviolet;
+      }
+      /* social icons */
+
+      /* article links */
+    </style>
   </head>
   <body>
-    <img id="avatar" src="/images/chandhu.jpeg" alt="Talented and Ambitious employed Chandhu" width="200"/>
+    <img
+      id="avatar"
+      src="/images/chandhu.jpeg"
+      alt="Talented and Ambitious employed Chandhu"
+    />
     <h1 class="headline">Chandhu Bhumireddy</h1>
-    <h2 class="tagline">Software Developer @ DPI | MS CS @ UIC </h2>
+    <h2 class="tagline">Software Developer @ DPI | MS CS @ UIC</h2>
     <p id="bio">
-      I'm a <strong>passionate</strong> Computer Science professional currently pursuing my <span style="color: red;">Master's</span> at the University of Illinois at 
-      Chicago—graduating in May 2025. My journey in tech is defined by a commitment to innovation, continuous learning,
-      and impactful mentorship.
+      I'm a passionate Computer Science professional currently pursuing my
+      Master'sat the University of Illinois at Chicago—graduating in May 2025.
+      My journey in tech is defined by a commitment to innovation, continuous
+      learning, and impactful mentorship.
     </p>
     <ul class="icon-links">
       <li>
-        <a href="https://github.com/bchandhu" target="_blank">Github</a>
+        <a href="https://github.com/bchandhu" target="_blank" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/chandhu-bhumireddy-022432190/" target="_blank">LinkedIn</a>
+        <a
+          href="https://www.linkedin.com/in/chandhu-bhumireddy-022432190/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
       </li>
       <li>
-        <a href="https://dev.to/chandhu_bhumireddy_80a6d2" target="_blank">DevTo</a>
+        <a href="https://dev.to/chandhu_bhumireddy_80a6d2" target="_blank">
+          <i class="fa-brands fa-dev"></i>
+        </a>
       </li>
     </ul>
     <div class="article-links">
       <h3>Articles</h3>
       <ul>
         <li>
-          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7328811408710684672/" target="_blank">I am Graduated!</a>
+          <a
+            href="https://www.linkedin.com/feed/update/urn:li:activity:7328811408710684672/"
+            target="_blank"
+            >I am Graduated!</a
+          >
         </li>
         <li>
-          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7324100425563918337/" target="_blank">My DPI Capstone project</a>
+          <a
+            href="https://www.linkedin.com/feed/update/urn:li:activity:7324100425563918337/"
+            target="_blank"
+            >My DPI Capstone project</a
+          >
         </li>
         <li>
-          <a href="https://dev.to/ritumka/useful-shortcuts-8hg" target="_blank">Margo tips on shortcuts</a>
+          <a href="https://dev.to/ritumka/useful-shortcuts-8hg" target="_blank"
+            >Margo tips on shortcuts</a
+          >
         </li>
       </ul>
     </div>
